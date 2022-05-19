@@ -16,6 +16,7 @@ public class HashesMapes {
 
 
 
+
             for(String key : capitalCities.keySet()){
                 System.out.println(key);
             }
