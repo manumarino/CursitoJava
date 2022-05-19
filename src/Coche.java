@@ -1,5 +1,5 @@
-public class Coche {
-
+public abstract class Coche {
+//LAS CLASES SON COMO MOLDES QUE NOS PERMITEN CREAR OBJETOS
     //atributos
     //caracteristicas que tiene un objeto, o un coche
     String color;
@@ -15,7 +15,20 @@ public class Coche {
         this.color = color; //el metodo constructor tiene nombre especial, con mayuscula, y el mismo nombre de la clase
         //con 'this' asignamos valores a los parametros, que se envian desde fuera de la clase y asignamos al interior de
         //la clase, a LOS OBJETOS QUE SE CREAN A PARTIR DE LA CLASE
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.peso = peso;
+        this.largo = largo;
+
     }
+//comportamiento
+    public void acelerar(Integer cantidad){
+       // if(//para restringir que la velocidad no sea negativa y no supere 120){
+
+        this.velocidad += cantidad;
+    }
+
+
 
     public Coche(){
 
@@ -26,6 +39,9 @@ public class Coche {
 
     }
 
+
+    //TAMBIEN SE SUELE GENERAR UN METODO toString() PARA IMPRIMIR TOFO LO QUE ESTAMOS GENERANDO
+    //click derecho, Generate, toString(). crea un system.println que imprime el valor de todas las propiedades.
     @Override
     public String toString() {
         return "Coche{" +

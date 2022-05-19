@@ -1,5 +1,7 @@
 public class Herencia extends Coche{ //la palabra extends nos permite heredar de otra clase
-    //Herencia nos permite usar codigo entre clases. podemos usar una clase detro de clases hijas
+    //Herencia nos permite usar codigo entre clases. USAMOS UNA CLASE BASE O SUPERCLASE QUE NOS PROPORCIONA
+    // UN CODIGO QUE CON CLASES HIJAS PODEMOS HEREDAR, JUNTO CON SUS ATRIBUTOS Y COMPORTAMIENTOS.
+    // podemos usar una clase detro de clases hijas
     //usamos la clase Coche que habiamos creado. supongamos que hay distintos coches
 
     String motorElectrico;
