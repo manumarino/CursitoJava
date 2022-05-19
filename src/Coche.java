@@ -8,7 +8,7 @@ public abstract class Coche {
     Double peso;
     Double largo;
     Integer velocidad = 0;
-    String que = "woow";
+    
 
     //constructores
     //metodos especiales que nos permiten crear objetos de esta clase. si no ponemos nada habra por defecto un constructor vacio.
@@ -27,7 +27,7 @@ public abstract class Coche {
        // if(//para restringir que la velocidad no sea negativa y no supere 120){
 
         this.velocidad += cantidad;
-        String si = "woow";
+        String si = "woow sisi";
     }
 
 
