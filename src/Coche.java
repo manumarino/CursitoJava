@@ -8,6 +8,7 @@ public abstract class Coche {
     Double peso;
     Double largo;
     Integer velocidad = 0;
+    String pitu;
     
 
     //constructores
@@ -20,6 +21,7 @@ public abstract class Coche {
         this.modelo = modelo;
         this.peso = peso;
         this.largo = largo;
+        String fabricantewow;
 
     }
 //comportamiento
